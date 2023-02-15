@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=/mnt/c/Users/david/Repo/konfig-final-itinf21-team-burger/csv_log.csv
+FILE=/home/adminuser/csv_log.csv
 DATE=$(date +"%Y-%m-%d %H:%M:%S")
 
 if [ ! -f $FILE ]; then
